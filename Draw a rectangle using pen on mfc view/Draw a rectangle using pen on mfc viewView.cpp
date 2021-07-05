@@ -57,7 +57,7 @@ void CDrawarectangleusingpenonmfcviewView::OnDraw(CDC* pDC)
 {	
 
 	CPen pen;
-	pen.CreatePen(PS_SOLID,1,RGB(160,123,225));
+	pen.CreatePen(PS_DOT,1,RGB(160,123,225));
 	pDC->SelectObject(&pen);
 
 	pDC->Rectangle(80,120,220,360);
